@@ -1,7 +1,7 @@
 const Razorpay = require('razorpay');
 
-const apiKey = process.env.RAZORPAY_KEY_ID || "rzp_test_NMLRBS6ZXqTKL3"
-const apiSecret = process.env.RAZORPAY_KEY_SECRET || "dThYpD36mSpD7iTxkvyvpQGC"
+const apiKey = process.env.RAZORPAY_KEY_ID 
+const apiSecret = process.env.RAZORPAY_KEY_SECRET
 
 const razorpay= new Razorpay({
   key_id: apiKey,
